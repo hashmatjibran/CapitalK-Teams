@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "capital-k",
+  "keywords": [
+    "capital",
+    "-k"
+  ],
+  "homepage": "https://github.com/hashmatjibran/CapitalK-Teams#readme",
+  "bugs": {
+    "url": "https://github.com/hashmatjibran/CapitalK-Teams/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashmatjibran/CapitalK-Teams.git"
+  },
+  "license": "ISC",
+  "author": "sahisols.com",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0"
+  }
+}
