@@ -1,0 +1,26 @@
+.navigationPane{
+    position: sticky;
+    top: 0px;
+    background: #fff !important;
+    z-index: 300;
+    padding-top: 10px;
+    border-bottom: 1px solid #7dd6fa82;
+}
+
+    /* '#fffceb',
+    "#ecffec",
+    "#feefea",
+    "#fff3eb",
+    "#fff3ff",
+    "#f2fce4",
+    "#feefea",
+    "#fffceb",
+    "#feefea",
+    "#fffceb",
+    "#feefea",
+    "#ecffec",
+    "#feefea",
+    "#fff3eb",
+    "#fff3ff",
+    "#f2fce4",
+    "#feefea" */

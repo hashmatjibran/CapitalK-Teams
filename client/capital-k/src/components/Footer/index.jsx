@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { GiDogBowl } from "react-icons/gi";
 import { TbTruckDelivery } from "react-icons/tb";
 import { RiDiscountPercentLine } from "react-icons/ri";

@@ -1,0 +1,9 @@
+.logoWrapper .companyName{
+	font-size: 20px !important;
+	font-family:'Lato', Courier, monospace;
+	text-transform: uppercase;
+	color: slategrey;
+	font-weight: 700 !important;
+
+}
+
