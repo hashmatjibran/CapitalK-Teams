@@ -9,6 +9,7 @@ body {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.8);
   letter-spacing: 3px;
+  
 }
 button{text-transform: capitalize !important;}
 .btn-blue{background: #233a95 !important; color: #fff !important; text-transform: capitalize !important; font-weight: bold !important; padding: 8px 15px !important;}
@@ -87,6 +88,7 @@ button{text-transform: capitalize !important;}
 .headerWrapper .header {
   width: 100%;
   height: auto;
+  background-color: #0000000d;
 }
 .logoWrapper img {
   width: 100%;
@@ -396,3 +398,78 @@ nav .nav-part2 ul li .submenu a {
 }
 
 /* upto 399 */
+
+
+.homeBannerSection {
+  position: relative;
+  overflow: hidden;
+}
+.homeBannerSection * {
+  outline: none;
+}
+.homeBannerSection .slick-arrow {
+  position: absolute;
+  top: 45%;
+  z-index: 100;
+  display: flex;
+  background: #444;
+  border-radius: 100%;
+}
+.homeBannerSection .slick-arrow.slick-next {
+  right: 25px !important;
+}
+.homeBannerSection .slick-arrow.slick-prev {
+  left: 25px !important;
+}
+
+.homeBannerSection img{
+  border-radius: 30px !important;
+}
+
+.homeProducts {
+  padding: 25px 0px;
+  width: 100%;
+}
+.homeProducts .banner {
+  width: 100%;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+ .hd {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* upto 488 */
+.categoryItem{
+  border-radius:50% ;
+  overflow:hidden;
+  position: relative;
+height: 125px;
+  width: 100%;
+}
+.categoryItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.categoryItem .text {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.categoryItem:hover .text {
+  background: rgba(0, 0, 0, 0.7);
+}

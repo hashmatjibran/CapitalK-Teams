@@ -12,6 +12,7 @@ import { PiCopyrightLight } from "react-icons/pi";
 const Footer = () => {
   return (
     <footer>
+      <hr />
       <div className='container'>
         <div className='row topInfo'>
           <div className='col d-flex align-items-center'>

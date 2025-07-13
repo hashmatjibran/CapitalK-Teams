@@ -14,17 +14,13 @@ function App() {
     <BrowserRouter>
       <div className="app">
         <Header/>
-        <main className="app-main">
-          <p>This is a simple React application.</p>
-          <p>Feel free to explore and modify it!</p>
-        </main>
-
       </div>
-      
+
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          {/* <Route path="/about" element={<About />} />  */}
+          <Route path='/' element={<Homepage />} />
         </Routes>
+
+        
         <Footer />
         </BrowserRouter>
     </>
