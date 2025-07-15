@@ -1,6 +1,7 @@
 import { Card } from "@mui/material";
 import banner1 from "../../assets/capital k banner 1.jpg";
 import banner2 from '../../assets/Restaurant-Food-Web-Banner-Design-1180x664.jpg';
+import BestSelling from "../BestSelling/BestSelling";
 const banner3 ="https://cmsimages.shoppersstop.com/SS_25_kids_main_kv_web_d891e0ff9a/SS_25_kids_main_kv_web_d891e0ff9a.png"
 const banner4 ="https://cmsimages.shoppersstop.com/Only_web_6d5176b761/Only_web_6d5176b761.png";
 const banner5= "https://cmsimages.shoppersstop.com/SS_25_main_kv_web_fd8e548010/SS_25_main_kv_web_fd8e548010.png"
@@ -47,13 +48,14 @@ const HomeCategory = () => {
             </div>
             </div>
     </div>
-    <div className="homeCategorySection2 container-fluid mt-3 mb-2">
-       <h4> some Heading</h4>
+    {/* <div className="homeCategorySection2 container-fluid mt-3 mb-2">
+       <h4> Top Best Selling</h4>
         <Card>
             <img src={banner1} alt="" srcset="" />
         </Card>
         
-    </div>
+    </div> */}
+    <BestSelling />
     </>
   )
 }

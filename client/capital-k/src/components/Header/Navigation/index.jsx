@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Button } from '@mui/material';
-import { IoMdMenu } from "react-icons/io";
+import { IoIosRestaurant, IoMdMenu, IoMdRestaurant } from "react-icons/io";
+import { GrBlog } from "react-icons/gr";
 import { SiPetsathome } from "react-icons/si";
 import { FcDonate, FcServices } from "react-icons/fc";
 import { SiWorldhealthorganization } from "react-icons/si";
@@ -13,6 +14,7 @@ import { FaAngleDown } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 import './Navigation.css'
+import { RiRestaurant2Fill } from 'react-icons/ri';
 const Navigation = () => {
 
   const[isOpenSidebarVal ,setisOpenSidebarVal] = useState(false);
@@ -63,16 +65,15 @@ const Navigation = () => {
             <ul className='list list-inline '>
                 <li className='list-inline-item'><Link to={'/'}><Button className='navBtnList'> < SiPetsathome style={{color:'#2bbef9'}}/>&nbsp; Home               </Button></Link>
                 <div className='submenu shadow'>
-                  <Link to={'/'}><Button>Dogs</Button></Link>
-                  <Link to={'/'}><Button>cats</Button></Link>
-                  <Link to={'/'}><Button>Toys</Button></Link>
+                  <Link to={'/'}><Button>Pizza's</Button></Link>
+                  <Link to={'/'}><Button>Burger's</Button></Link>
+                  <Link to={'/'}><Button>Sandwitch's</Button></Link>
                 </div>
                 </li>
-                <li className='list-inline-item'><Link to={'/services'}><Button className='navBtnList'><FcServices/>&nbsp; Services</Button></Link></li>
-                <li className='list-inline-item'><Link to={'/book-an-appointment'}><Button className='navBtnList'> <SiWorldhealthorganization style={{color:'lightskyblue'}} /> &nbsp;Appointment</Button></Link></li>
-                <li className='list-inline-item'><Link to={'/adopt'}><Button className='navBtnList'><MdPets style={{color:'#69b769'}}/> &nbsp;Adopt</Button></Link></li>
-                <li className='list-inline-item'><Link to={'/store'}><Button className='navBtnList'><LiaStoreAltSolid style={{color:'darkcyan'}} />&nbsp; Store</Button></Link></li>
-                <li className='list-inline-item'><Link to={'/donations'}><Button className='navBtnList'><FcDonate style={{color:'darkcyan'}} />&nbsp; Donate</Button></Link></li>
+                <li className='list-inline-item'><Link to={'/services'}><Button className='navBtnList'><FcServices/>&nbsp; Our Menu</Button></Link></li>
+                <li className='list-inline-item'><Link to={'/book-an-appointment'}><Button className='navBtnList'> <RiRestaurant2Fill style={{color:'lightskyblue'}} /> &nbsp;Dine In</Button></Link></li>
+                <li className='list-inline-item'><Link to={'/store'}><Button className='navBtnList'><LiaStoreAltSolid style={{color:'darkcyan'}} />&nbsp; Takeaway</Button></Link></li>
+                <li className='list-inline-item'><Link to={'/donations'}><Button className='navBtnList'><GrBlog style={{color:'darkcyan'}} />&nbsp; Blog</Button></Link></li>
                 <li className='list-inline-item'><Link to={'/about'}><Button className='navBtnList'><TiInfoLarge style={{color:'indianred'}}/>&nbsp; About</Button></Link></li>
                 <li className='list-inline-item'><Link to={'/contact'}><Button className='navBtnList'><MdConnectWithoutContact style={{color:'darkorange'}} />&nbsp; Contact us</Button></Link></li>
             </ul>

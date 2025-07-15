@@ -6,6 +6,8 @@ import Footer from './components/Footer/index'
 import { BrowserRouter ,Routes , Route } from 'react-router-dom';
 import Homepage from './components/HomePage/Homepage';
 import Header from './components/Header/Header';
+import Navigation from './components/Header/Navigation';
+import Home from './pages/Blog/Home';
 
 function App() {
 
@@ -14,10 +16,11 @@ function App() {
     <BrowserRouter>
       <div className="app">
         <Header/>
+        <Navigation/>
       </div>
 
         <Routes>
-          <Route path='/' element={<Homepage />} />
+          <Route path='/' element={<Home />} />
         </Routes>
 
         
